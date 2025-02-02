@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"go-study/src/forLoop"
+)
 
 func main() {
 	message := greetMe("world")
@@ -10,6 +13,8 @@ func main() {
 	num()
 	Pointer()
 	Arrays()
+	cond("monday")
+	forLoop.ForLoop()
 }
 
 func greetMe(name string) string {
