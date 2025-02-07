@@ -15,6 +15,8 @@ func main() {
 	Arrays()
 	cond("monday")
 	forLoop.ForLoop()
+	variables2()
+	dataType()
 }
 
 func greetMe(name string) string {
