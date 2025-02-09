@@ -7,6 +7,7 @@ func Pointer() {
 	fmt.Println("Value b is = ", b)
 	fmt.Println("Value b address is = ", &b)
 
+	// address
 	c := getPointer()
 	fmt.Println("Value c address is = ", c)
 }
