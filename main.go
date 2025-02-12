@@ -17,6 +17,7 @@ func main() {
 	forLoop.ForLoop()
 	variables2()
 	dataType()
+	format()
 }
 
 func greetMe(name string) string {
