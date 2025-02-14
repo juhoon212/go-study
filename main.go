@@ -18,6 +18,7 @@ func main() {
 	variables2()
 	dataType()
 	format()
+	bit()
 }
 
 func greetMe(name string) string {
