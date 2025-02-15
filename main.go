@@ -19,6 +19,7 @@ func main() {
 	dataType()
 	format()
 	bit()
+	array()
 }
 
 func greetMe(name string) string {
