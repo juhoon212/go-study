@@ -20,6 +20,7 @@ func main() {
 	format()
 	bit()
 	array()
+	structStudy()
 }
 
 func greetMe(name string) string {
