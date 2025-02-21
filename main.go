@@ -21,6 +21,8 @@ func main() {
 	bit()
 	array()
 	structStudy()
+	std()
+	Pointer2()
 }
 
 func greetMe(name string) string {
