@@ -22,9 +22,22 @@ func Pointer2() {
 	var data Data
 	ChangeData(data)
 	fmt.Printf("value = %d\n", data.value)
+
+	// 구조체 포인터 초기화
+	var p *Data = &Data{}
+	p.value = 3
+	p.data[100] = 4
+	fmt.Printf("p.value = %d, p.data[100] = %d\n", p.value, p.data[100])
+
+	p4 := &Data{
+		value: 3,
+		data:  [200]int{1, 2, 3},
+	}
+
+	fmt.Printf("p4 = %d, %d\n", p4.value, p4.data[0])
 }
 
 func ChangeData(arg Data) {
 	arg.value = 999
-	arg.data[100] = 999 
+	arg.data[100] = 999
 }
