@@ -23,6 +23,7 @@ func main() {
 	structStudy()
 	std()
 	Pointer2()
+	StringStudy()
 }
 
 func greetMe(name string) string {
