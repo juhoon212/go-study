@@ -24,6 +24,7 @@ func main() {
 	std()
 	Pointer2()
 	StringStudy()
+	Package()
 }
 
 func greetMe(name string) string {
