@@ -37,7 +37,7 @@ func Pointer2() {
 	fmt.Printf("p4 = %d, %d\n", p4.value, p4.data[0])
 }
 
-func ChangeData(arg Data) {
+func ChangeData(arg *Data) {
 	arg.value = 999
 	arg.data[100] = 999
 }
